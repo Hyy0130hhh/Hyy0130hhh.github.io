@@ -1,6 +1,6 @@
 # Site settings
-title: Hyy Blog
-SEOTitle: 黄元烨的博客  Blog
+title: 大学生活
+SEOTitle: 黄元烨的博客  大学生活
 header-img: img/home-bg.jpg
 email: "24281006@bjtu.edu.cn"
 description: "这里是 黄元烨 的个人博客，与你一起发现更大的世界"
@@ -11,12 +11,8 @@ baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 # Publish posts or collection documents with a future date.
 future: true
 
-# SNS settings
-RSS: false
-github_username:Hyy0130hhh
-email_address:24281006@bjtu.edu.cn
+
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
 paginate: 10
@@ -29,20 +25,15 @@ exclude:
     "README.md",
     "README.zh.md",
   ]
-anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: true 
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN
 
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-# make sure you have this gem installed
-# `$ gem install jekyll-paginate`
+# Plugins
 plugins: [jekyll-paginate]
 
 # Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
+
 markdown: kramdown
 kramdown:
   input: GFM # use Github Flavored Markdown !important
@@ -54,22 +45,16 @@ kramdown:
       start_line: 1
 
 # Analytics settings
-# Baidu Analytics
-# ba_track_id: [your track id]
 
 # Google Analytics
 
 
 # Sidebar settings
-sidebar: true # whether or not using Sidebar.
+sidebar: true 
 sidebar-about-description: 北京交通大学计算机科学与技术 2401班 在读
-# Featured Tags
-featured-tags: true # whether or not using Feature-Tags
-featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-# MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: false
+friends:
+  [
+    { title: "北京交通大学", href: "https://en.bjtu.edu.cn/" },
+    { title: "BJTU计算机学院课程平台", href: "https://citel.bjtu.edu.cn/mlsv3/login/index.php" },
+    { title: "BJTU计算机综合实验室", href: "http://citlab.bjtu.edu.cn/" },
+  ]
