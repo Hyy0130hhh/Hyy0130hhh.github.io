@@ -1,7 +1,7 @@
 # Site settings
 title: 大学生活
 SEOTitle: 黄元烨的博客  大学生活
-header-img: img/home-bg.jpg
+header-img: img/图片awa.jpg
 email: "24281006@bjtu.edu.cn"
 description: "这里是 黄元烨 的个人博客，与你一起发现更大的世界"
 keyword:"Huang yuanye,BJTU,computer science"
@@ -26,6 +26,7 @@ exclude:
     "README.zh.md",
   ]
 anchorjs: true 
+
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN
 
@@ -33,7 +34,6 @@ anchorjs: true
 plugins: [jekyll-paginate]
 
 # Markdown settings
-
 markdown: kramdown
 kramdown:
   input: GFM # use Github Flavored Markdown !important
@@ -45,13 +45,16 @@ kramdown:
       start_line: 1
 
 # Analytics settings
-
 # Google Analytics
-
+ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true 
-sidebar-about-description: 北京交通大学计算机科学与技术 2401班 在读
+sidebar-about-description: "要做一个有理想的大学生：）"
+sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# Friends
 friends:
   [
     { title: "北京交通大学", href: "https://en.bjtu.edu.cn/" },
